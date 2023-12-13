@@ -3,9 +3,11 @@ import { useState } from "react";
 import "./App.css";
 import profile from "./assets/Ellipse 1.png";
 import img1 from "./assets/Rectangle 30.png";
+import img2 from "./assets/Rectangle 32.png";
+import img3 from "./assets/Rectangle 34.png";
 
 function App() {
-  const [count, setCount] = useState(0);
+  
 
   return (
     <>
@@ -118,10 +120,10 @@ function App() {
               <div className="flex flex-col w-[75%] gap-2">
                 <div className="text-4xl font-bold">Designing Dashboard</div>
                 <div className="flex flex-row">
-                  <div className="text-white bg-black rounded-2xl text-2xl p-1">
+                  <div className="text-white bg-black rounded-2xl  text-xl  font-medium ps-2 pe-2">
                     2020
                   </div>
-                  <div className="text-3xl ms-4">Dashboard</div>
+                  <div className="text-3xl ms-4 text-slate-400">Dashboard</div>
                 </div>
                 <div className="text-2xl">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -132,14 +134,14 @@ function App() {
             </div>
             <div className="border-b-2 border-b-black"></div>
             <div className="flex flex-row gap-3">
-              <img src={img1} alt="" className="w-[25%]" />
+              <img src={img2} alt="" className="w-[25%]" />
               <div className="flex flex-col w-[75%] gap-2">
                 <div className="text-4xl font-bold">Designing Dashboard</div>
                 <div className="flex flex-row">
-                  <div className="text-white bg-black rounded-2xl text-2xl p-1">
+                  <div className="text-white bg-black rounded-2xl text-xl  font-medium ps-2 pe-2">
                     2020
                   </div>
-                  <div className="text-3xl ms-4">Dashboard</div>
+                  <div className="text-3xl ms-4 text-slate-400">Illustration</div>
                 </div>
                 <div className="text-2xl">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -150,14 +152,14 @@ function App() {
             </div>
             <div className="border-b-2 border-b-black"></div>
             <div className="flex flex-row gap-3">
-              <img src={img1} alt="" className="w-[25%]" />
+              <img src={img3} alt="" className="w-[25%]" />
               <div className="flex flex-col w-[75%] gap-2">
                 <div className="text-4xl font-bold">Designing Dashboard</div>
                 <div className="flex flex-row">
-                  <div className="text-white bg-black rounded-2xl text-2xl p-1">
+                  <div className="text-white bg-black rounded-2xl  text-xl  font-medium ps-2 pe-2">
                     2020
                   </div>
-                  <div className="text-3xl ms-4">Dashboard</div>
+                  <div className="text-3xl ms-4 text-slate-400">Typography</div>
                 </div>
                 <div className="text-2xl">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
