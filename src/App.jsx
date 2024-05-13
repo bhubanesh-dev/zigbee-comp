@@ -72,7 +72,7 @@ function App() {
             <div className="ps-36 text-3xl font-medium">Recent Posts</div>
             <div className="pe-36 text-xl text-blue-500"> View all</div>
           </div>
-          <div className="flex flex-row items-center ms-36 mb-36 mt-6 gap-3 ">
+          <div className="flex flex-row items-center mx-24 mb-36 mt-6 gap-3  ">
             <div className="flex flex-col w-[50%]     justify-center bg-white">
               <div className="text-2xl  font-bold   mt-6 p-2">
                 {" "}
@@ -174,9 +174,10 @@ function App() {
         {/* social media */}
         <div className="h-[30vh] ">
           <div className="flex flex-row items-end justify-center gap-3  mt-48">
-            <div className="h-12 w-12 bg-black"></div>
-            <div className="h-12 w-12 bg-black"></div>
-            <div className="h-12 w-12 bg-black"></div>
+            <div className="h-12 w-12 bg-black text-white text-center">link</div>
+            <div className="h-12 w-12 bg-black text-white text-center">link</div>
+            <div className="h-12 w-12 bg-black text-white text-center">link</div>
+            <div className="h-12 w-12 bg-black text-white text-center">link</div>
           </div>
           <div className="text-xl text-center mt-6">Copyright ©2020 All rights reserved </div>
         </div>
